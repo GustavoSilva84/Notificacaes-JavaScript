@@ -1,0 +1,21 @@
+html, body {
+    background: rgb(0, 0, 0);
+    height: 100%;   
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#buttons > button {
+    background: rgb(86, 71, 235);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin: 0 20px;
+    outline: none;
+}
